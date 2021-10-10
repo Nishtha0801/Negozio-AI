@@ -1,0 +1,154 @@
+/*Header Section*/
+.header{}
+.yellow-header{
+    position: absolute;
+width: 1016px;
+height: 724px;
+left: 0px;
+top: 0px;
+
+background: #FFCD00;
+}
+.yellow-header-heading{position: absolute;
+    width: 564px;
+    height: 154px;
+    left: 98px;
+    top: 192px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 51px;
+    line-height: 76px;
+    
+    color: #000000;}
+.yellow-header-content{position: absolute;
+    width: 477px;
+    height: 336px;
+    left: 102px;
+    top: 365px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 42px;
+    
+    color: #000000;}
+.header-bottom-arrow{position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 104px;
+    top: 695px;}
+.header-image{
+    position: absolute;
+width: 824px;
+height: 672px;
+left: 616px;
+top: 267px;
+}
+
+/*Section 1 Start*/ 
+.section-1{}
+.section-1-heading{position: absolute;
+    width: 765px;
+    height: 84px;
+    left: 98px;
+    top: 1024px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 84px;
+    /* identical to box height */
+    
+    
+    color: #006CB4;}
+.section-1-content{position: absolute;
+    width: 1189px;
+    height: 1104px;
+    left: 98px;
+    top: 1135px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;}
+
+/*Section 2 Start*/
+.section-2{}
+.section-2-heading{position: absolute;
+    width: 374px;
+    height: 84px;
+    left: 98px;
+    top: 2329px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 84px;
+    /* identical to box height */
+    
+    
+    color: #006CB4;}
+.team-images{}
+.pooja-image{position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 98px;
+    top: 2452px;}
+.nishtha-image{position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 442px;
+    top: 2452px;
+    }
+.gaurisha-image{position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 272px;
+    top: 2790px;
+}
+
+.section-2-yellow-container{position: absolute;
+    width: 497px;
+    height: 640px;
+    left: 790px;
+    top: 2452px;
+    
+    background: #FFCD00;}
+.section-2-yellow-container-heading{
+    position: absolute;
+width: 295px;
+height: 54px;
+left: 28px;
+top: 53px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.section-2-yellow-container-content{position: absolute;
+    width: 424px;
+    height: 432px;
+    left: 28px;
+    top: 121px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: #000000;}
+

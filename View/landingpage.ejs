@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="icon" type="image/png" href="./images/images/Flipkart Logo.png">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="./css/styles.css">
+
+        <title>Flipsmart: Home</title>
+    </head>
+    <body>
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+        
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Flipsmart</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#learn_more" class="nav__link">Learn More</a></li>
+                        <li class="nav__item"><a href="#shop" class="nav__link">Shop</a></li>
+                        <li class="nav__item"><a href="#contact_us" class="nav__link">Contact Us</a></li>
+
+                        <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__img">
+                        <img src="./images/img/party.png" alt="">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">This Basket Understands You &#128092;</h1>
+                        <p class="home__description">Powered by ML algorithms, Flipsmart gives you recommendations and urges you to buy thing you yourself didn't knew you'd need.</p>
+                        <!--This will redirect to the Login/Signup page-->
+                        <a href="#" class="button">Get Started</a>
+                    </div>   
+                </div>
+            </section>
+
+            <!--========== LEARN MORE ==========-->
+            <section class="share section bd-container" id="learn_more">
+                <div class="share__container bd-grid">
+                    <div class="share__data">
+                        <h2 class="section-title-center">Wait, You Can <br> Tell What I Need? &#128561;</h2>
+                        <p class="share__description">We analyse your purchase history, what users just like you are ordering and the items in your cart after which we come up with the best recommendations for the products you may additionally need.</p>
+                        <a href="#" class="button">Learn More</a>
+                    </div>
+
+                    <div class="share__img">
+                        <img src="./images/img/awe.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--========== CATEGORIES ==========-->
+            <section class="decoration section bd-container" id="shop">
+                <h2 class="section-title">Find Everything You <br> Will Ever Need</h2>
+                <div class="decoration__container bd-grid">
+                    <div class="decoration__data">
+                        <img src="./images/img/apple_render.gif" alt="" class="decoration__img" id="apple_render">
+                        <h3 class="decoration__title">Fresh Fruits and Veggies</h3> 
+                        <a href="#" class="button button-link">Go Shopping</a>
+                    </div>
+
+                    <div class="decoration__data">
+                        <img src="./images/img/burger_render.gif" alt="" class="decoration__img" id="burger_render">
+                        <h3 class="decoration__title">Ready To Eat</h3>
+                        <a href="#" class="button button-link">Go Shopping</a>
+                    </div>
+
+                    <div class="decoration__data">
+                        <img src="./images/img/milk_render.gif" alt="" class="decoration__img" id="milk_render">
+                        <h3 class="decoration__title">Dairy Products</h3>
+                        <a href="#" class="button button-link">Go Shopping</a>
+                    </div>
+                </div>
+            </section>
+
+            
+            <!--========== REACH OUT TO DEVELOPERS ==========-->
+            <section class="send section" id="contact_us">
+                <div class="send__container bd-container bd-grid">
+                    <div class="send__content">
+                        <h2 class="section-title-center send__title">Found A Problem?</h2>
+                        <p class="send__description">Celestial Biscuit takes their laptops along even on a vacation. Feel free to reach out to us in case you are having any trouble in using our platform.</p>
+                        <form action="">
+                            <div class="send__direction">
+                                <input type="text" placeholder="Type Message" class="send__input">
+                                <a href="#" class="button">Send</a>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="send__img">
+                        <img src="./images/img/aram.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="./javascript/main.js"></script>
+    </body>
+</html>
