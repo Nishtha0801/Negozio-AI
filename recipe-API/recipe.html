@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Station</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel = "stylesheet" href = "./recipe.css"> <!--TODO: Link to the public folder-->
+</head>
+<body>
+    
+    <!--Initialising the main container-->
+    <div class="container">
+        <!--Adding an inner container to ensure margins and paddings are proper-->
+        <div class="recipe-area">
+
+            <!--Search Area: Here is where the user can search for various recipes-->
+            <div class="search-area">
+                <!--Title-->
+                <h2 class="search-title">Find A Recipe</h2>
+                <!--Search Form-->
+                <div class="search-form">
+                    <!--Add Ingredient Text Area-->
+                    <input type="text" class="add-ingredient" placeholder="Ingredient Name" id="ingredient-input">
+                    <!--Search Button-->
+                    <button class="btn search-btn" id="search-btn" type="submit">
+                        <i class="fas fa-search" style="font-size:1.5rem;margin-bottom: 7rem;"></i>
+                    </button>
+                </div>
+            </div>
+            <!--Search Area End-->
+
+            <!--Recipe Display Area: Here is where the recipes will be displayed-->
+            <div class="recipe-display-area">
+                <h2 class="recipe-display-heading">Recipes For You:</h2>
+                <div id="recipe-results">
+                    <!--Each recipe will contain an image, the name of the meal and a button for the recipe to be displayed, this will be rendered dynamically through javascript-->
+                </div>
+            </div>
+            <!--Recipe Display Area End-->
+
+            <!--Recipe Modal: Here the entire recipe will be displayed-->
+            <div class="recipe">
+                <!--Close Button-->
+                <button class="btn recipe-close-btn" id="recipe-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <!--Recipe Start-->
+                <div class="recipe-modal">
+                    <!--Each recipe will contain a title, a category, instructions for the recipe, image of the recipe and the link to the YouTube video of that recipe, this will be rendered dynamically through javascript-->
+                </div>
+                <!--Recipe End-->
+            </div>
+            <!--Recipe Modal End-->
+
+        </div>
+        <!--Recipe Area End-->
+
+    </div>
+    <!--Container End-->
+
+    <!--Script for getting recipes using The MealDB API-->
+    <script src="./recipeNew.js" async></script>
+    <!--TODO: Add script for getting nutritional value of the recipes-->
+</body>
+</html>
