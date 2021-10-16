@@ -258,7 +258,9 @@ input text{
 }
 
 .showRecipe{
-    display:block;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .noResults{
@@ -266,7 +268,7 @@ input text{
     color: var(--black);
     font-size: 1.8rem;
     font-weight: 600;
-    width: 100vw;
+    width: 100%;
 }
 
 @media screen and (min-width: 600px){
