@@ -17,7 +17,7 @@ recipeResults.addEventListener('click', (e) => {
 });
 
 closeBtn.addEventListener('click',()=>{
-    recipeDisplayContent.parentElement.classList.remove('showRecipeContent');
+    recipeDisplayContent.parentElement.classList.remove('showRecipe');
 })
 
 //Creating a function to get the list of recipes based on the search 
