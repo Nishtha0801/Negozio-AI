@@ -19,9 +19,19 @@ const getCart = (req,res) => {
     res.render("landingpage.ejs");
 }
 
+const getRecipePage = (req,res) => {
+    res.render("recipe.ejs");
+}
+
+const getNewsPage = (req,res) => {
+    res.render("news.ejs"); 
+}
+
 module.exports.getCart = getCart;
 module.exports.getProductsPage = getProductsPage;
 module.exports.getLandingpage = getLandingpage;
 module.exports.getLearnMore = getLearnMore;
 module.exports.getSignIn = getSignIn;
 module.exports.getSignUp = getSignUp;
+module.exports.getRecipePage = getRecipePage; 
+module.exports.getNewsPage = getNewsPage; 

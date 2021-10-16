@@ -119,12 +119,12 @@ function getStartedHandler(){
     window.location.href = "/signIn"
 }
 
-let learnMore = document.querySelector(".share__container a");
-learnMore.addEventListener("click", learnMoreHandler);
+// let learnMore = document.querySelector(".share__container a");
+// learnMore.addEventListener("click", learnMoreHandler);
 
-function learnMoreHandler(){
-    window.location.href = "/learnMore"
-}
+// function learnMoreHandler(){
+//     window.location.href = "/learnMore"
+// }
 
 let goShopping = document.querySelectorAll(".decoration__data a");
 for(let i=0;i<goShopping.length;i++){
@@ -132,4 +132,20 @@ for(let i=0;i<goShopping.length;i++){
 }
 function goShoppingHandler(){
     window.location.href = "/productsPage"
+}
+
+//Added handler for recipes page
+let recipe = document.querySelector(".recipe__container a");
+recipe.addEventListener("click", recipeHandler);
+
+function recipeHandler(){
+    window.location.href = "/recipes"
+}
+
+//Added handler for news page 
+let news = document.getElementById("news-link");
+news.addEventListener("click",newsHandler);
+
+function newsHandler(){
+    window.location.href = "/news"
 }

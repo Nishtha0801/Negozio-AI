@@ -317,6 +317,48 @@ img{
   justify-self: center;
 }
 
+/*========== RECIPE ==========*/
+.recipe__data{
+  text-align: center;
+}
+
+.recipe__description{
+  margin-bottom: var(--mb-2);
+}
+
+.recipe__img{
+  width: 280px;
+  justify-self: center;
+}
+
+/*========== NEWS ==========*/
+.news__data{
+  text-align: center;
+}
+
+.news__description{
+  margin-bottom: var(--mb-2);
+}
+
+.news__img{
+  width: 280px;
+  justify-self: center;
+}
+
+/*========== LIVE CHAT ==========*/
+.liveChat__data{
+  text-align: center;
+}
+
+.liveChat__description{
+  margin-bottom: var(--mb-2);
+}
+
+.liveChat__img{
+  width: 280px;
+  justify-self: center;
+}
+
 /*========== DECORATION ==========*/
 .decoration__container{
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -502,7 +544,10 @@ img{
 @media screen and (max-width: 359px){
   .home__img,
   .share__img,
-  .send__img{
+  .send__img,
+  .recipe__img,
+  .news__img,
+  .liveChat__img{
     width: 100%;
   }
 }
@@ -510,7 +555,10 @@ img{
 @media screen and (min-width: 576px){
   .home__container,
   .share__container,
-  .send__container{
+  .send__container,
+  .recipe__container,
+  .news__container,
+  .liveChat__container{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
   }
@@ -525,17 +573,26 @@ img{
 
   .section-title-center,
   .share__data,
-  .send__description{
+  .send__description,
+  .recipe__data,
+  .news__data,
+  .liveChat__data{
     text-align: initial;
   }
 
   .home__img,
   .share__img,
-  .send__img{
+  .send__img,
+  .recipe__img,
+  .news__img,
+  .liveChat__img{
     width: 100%;
   }
   
-  .share__img{
+  .share__img,
+  .recipe__img,
+  .news__img,
+  .liveChat__img{
     order: -1;
   }
 }
@@ -576,7 +633,7 @@ img{
     padding: 7rem 2rem 0;
   }
 
-  .share__container{
+  .share__container, .recipe__container, .news__container, .liveChat__container{
     padding: 0 2rem;
   }
 
@@ -621,13 +678,19 @@ img{
 
   .home__img,
   .share__img,
-  .send__img{
+  .send__img,
+  .recipe__img,
+  .news__img, 
+  .liveChat__img{
     width: 469px;
   }
 
   .home__container,
   .share__container,
-  .send__container{
+  .send__container,
+  .recipe__container,
+  .news__container,
+  .liveChat__container{
     column-gap: 5rem;
   }
 }
